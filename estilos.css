@@ -1,5 +1,8 @@
-.titulo{
+.titulo {
     padding: 45px;
-    background: darkred;
     color: aliceblue;
+    border: 25px solid green;
+    margin: 20px;
+    width: 80px;
+    background: darkred;
 }
