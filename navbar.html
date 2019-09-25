@@ -9,11 +9,21 @@
 </head>
 <body>
     <nav>
-        <a href="#" class="nav-enlace">inicio</a>
-        <a href="#" class="nav-enlace">nosotros</a>
-        <a href="#" class="nav-enlace">servicios</a>
-        <a href="#" class="nav-enlace">contacto</a>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#" class="nav-enlace desaparece">inicio</a>
+        <a href="#" class="nav-enlace desaparece">nosotros</a>
+        <a href="#" class="nav-enlace desaparece">servicios</a>
+        <a href="#" class="nav-enlace desaparece">contacto</a>
     </nav>
-    
+
+    <script>
+    function accion(){
+        console.log('esta funcionando el boton');
+        var ancla = document.getElementsByClassName('nav-enlace');
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+    }
+    </script>
 </body>
 </html>
