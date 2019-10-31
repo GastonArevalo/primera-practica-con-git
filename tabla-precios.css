@@ -4,4 +4,32 @@ body{
 .container{
     margin: 0 auto;
     width: 90%;
+    
+}
+.columna1{
+    padding: 50px;
+    background: lightseagreen;
+
+
+}
+.columna2{
+    padding: 50px;
+    background: lightblue;
+
+
+}
+.columna3{
+    padding: 50px;
+    background: lightcoral;
+
+
+}
+.columna{
+    padding: 50px;
+    background: pink;
+
+
+}
+.back{
+    background: grey;
 }
