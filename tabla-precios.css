@@ -9,27 +9,35 @@ body{
 .columna1{
     padding: 50px;
     background: lightseagreen;
-
-
+    border: 5px seagreen solid;
+    
 }
 .columna2{
     padding: 50px;
     background: lightblue;
+    border: 5px rgb(61, 61, 224) solid;
 
 
 }
 .columna3{
     padding: 50px;
     background: lightcoral;
+    border: 5px rgb(190, 104, 104) solid;
 
 
 }
 .columna{
     padding: 50px;
     background: pink;
+    border: 5px rgb(180, 56, 77) solid;
 
 
 }
 .back{
     background: grey;
+}
+p{
+    align-content: center;
+    position: relative;
+    position: 50px 50px 50px 50px
 }
